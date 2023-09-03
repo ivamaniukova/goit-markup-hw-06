@@ -134,17 +134,28 @@
           <h2 class="sub-hdr">What are we doing</h2>
           <ul class="sub-list list">
             <li class="sub-list-item">
-              <img src="./images/display.jpg" alt="display" width="360" />
+              <img 
+              srcset="./images/display.jpg 1x,
+              ./images/display2x.jpg 2x"
+              src="./images/display.jpg" alt="display" width="360"
+              loading="lazy" />
             </li>
             <li class="sub-list-item">
               <img
+                srcset="./images/screen-protector.jpg 1x,
+                ./images/screen-protector@2x.jpg 2x"
                 src="./images/screen-protector.jpg"
                 alt="screen-protector"
                 width="360"
+                loading="lazy"
               />
             </li>
             <li class="sub-list-item">
-              <img src="./images/phone.jpg" alt="phone" width="360" />
+              <img 
+              srcset="./images/phone.jpg 1x,
+              ./images/phone@2x.jpg 2x"
+              src="./images/phone.jpg" alt="phone" width="360"
+              loading="lazy" />
             </li>
           </ul>
         </div>
@@ -529,7 +540,7 @@
       </button>
 
       <ul class="mobile-menu list">
-        <li class="mobile-menu-item current"><a class="mobile-menu-link link" href="">Studio</a></li>
+        <li class="mobile-menu-item"><a class="mobile-menu-link current link" href="">Studio</a></li>
         <li class="mobile-menu-item"><a class="mobile-menu-link link" href="">Portfolio</a></li>
         <li class="mobile-menu-item"><a class="mobile-menu-link link" href="">Contacts</a></li>
       </ul>
